@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-FakeHyperSploit - A Hilarious Bootloader Unlock Simulator
-Parodies the original HyperSploit with fake messages and random chaos
+FakeHyperSploit - Симулятор Паемюе по Разблокировке Бутлоадера
+Пародирует оригинальный HyperSploit с фейковыми сообщениями и случайным хаосом
 """
 
 import time
@@ -20,35 +20,35 @@ class MessageType(Enum):
 class FakeHyperSploit:
     def __init__(self):
         self.fake_messages = [
-            "Connecting to Xiaomi servers...",
-            "Initializing bootloader unlock protocol v2.0",
-            "Detecting device... Found: Mi Phone (but it's actually a microwave)",
-            "Checking HyperOS version... HyperOS 2.0.1337.420",
-            "WARNING: Device is running on potato battery",
-            "Downloading secret ROM from alternate dimension...",
-            "Bypassing security (but security is bypassing us)",
-            "Forging binding request with quantum entanglement",
-            "Disabling mobile internet using interpretive dance",
-            "ROM version modified: MIUI 14 → MIUI 1989",
-            "Contacting Xiaomi servers at 127.0.0.1...",
-            "RSA key found: hunter2",
-            "Attempting to rollback Settings app using time travel",
-            "ERROR: Device thinks it's a Samsung now",
-            "Retrying 69/420...",
-            "Installing ADB drivers from the shadow realm",
-            "Device serial: FAKE1234567890NOTREAL",
-            "Bootloader: Locked → ✨ Spiritually Unlocked ✨",
-            "Your warranty has been voided (in Alternate Universe C-137)",
-            "Bricking device in 3... 2... 1... JK lol",
-            "Timeout: Xiaomi is still thinking about your request",
-            "Device is now sentient and asking for cryptocurrency",
-            "Wait 17 hours? How about 17 milliseconds instead 😎",
-            "SIM card detected: It's a piece of paper",
-            "Unlocking bootloader using MOTIVATIONAL SPEECHES",
-            "Installing exploit v3: Now with extra memes",
-            "Your device has ascended to a higher plane",
-            "Bootloader unlock: SUCCESS (in parallel universe)",
-            "Device will explode in 5 seconds... JK it's already a brick",
+            "Залитьсе се Xiaomi сървиси...",
+            "Иницијализирање бутлоадер анлок протокол в2.0",
+            "Детектирање уред... Нађено: Mi Phone (но то је заправо микротолни печат)",
+            "Проверавање HyperOS верзије... HyperOS 2.0.1337.420",
+            "УПОЗОРЕЊЕ: Уред је на батерији од компира",
+            "Преузимање тајне ROM из алтернативне димензије...",
+            "Заобилажење безбедности (али безбедност нас заобилази)",
+            "Кованје захтева за везивање са квантним трајањем",
+            "Онемогућавање мобилног интернета користећи интерпретативни плес",
+            "ROM верзија модификована: MIUI 14 → MIUI 1989",
+            "Контактирање Xiaomi сервера на 127.0.0.1...",
+            "RSA кључ нађен: hunter2",
+            "Покушај враћања Settings апликације користећи путовање кроз време",
+            "ГРЕШКА: Уред мисли да је Samsung",
+            "Поновних покушаја 69/420...",
+            "Инсталирање ADB драјвера из сенке царства",
+            "Серијски број уреда: FAKE1234567890NOTREAL",
+            "Бутлоадер: Закључан → ✨ Духовно Откључан ✨",
+            "Ваша гарантија је пропала (у Алтернативном Универзуму C-137)",
+            "Кршење уреда за 3... 2... 1... Шала је",
+            "Истек времена: Xiaomi још размишља о вашем захтеву",
+            "Уред је сада свестан и тражи криптовалуту",
+            "Чекање 17 часова? Шта кажеш на 17 милисекунди уместо тога 😎",
+            "SIM картица детектована: То је папира",
+            "Откључавање бутлоадера користећи МОТИВАЦИОНЕ ГОВОРЕ",
+            "Инсталирање експлоита в3: Сада са додатним меме",
+            "Ваш уред је узнемирен на виши ниво",
+            "Откључавање бутлоадера: УСПЕХ (у паралелном универзуму)",
+            "Уред ће експлодирати за 5 секунди... Шала је већ је шанса",
         ]
 
         self.progress_chars = ["⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏"]
@@ -61,20 +61,20 @@ class FakeHyperSploit:
         ]
 
     def print_header(self):
-        """Print fancy header"""
+        """Печати го хедерот"""
         print("\n" + "=" * 60)
         print("╔════════════════════════════════════════════════════════╗")
-        print("║         🚀 FakeHyperSploit - Joke Edition 🚀           ║")
-        print("║      Bootloader Unlock Simulator (Totally Fake)        ║")
+        print("║      🚀 FakeHyperSploit - Издање на Албански 🚀       ║")
+        print("║   Симулатор за Откључавање Бутлоадера (Апсолутно Лажно)║")
         print("╚════════════════════════════════════════════════════════╝")
         print("=" * 60 + "\n")
 
     def print_message(self, msg_type: MessageType, message: str):
-        """Print a styled message"""
+        """Печати стилизирана пораката"""
         print(f"{msg_type.value} {message}")
 
-    def loading_animation(self, duration=2, message="Processing"):
-        """Show a fake loading animation"""
+    def loading_animation(self, duration=2, message="Обработка"):
+        """Покажи лажна анимација на вчитување"""
         start = time.time()
         i = 0
         while time.time() - start < duration:
@@ -88,151 +88,151 @@ class FakeHyperSploit:
         print("\r" + " " * 50 + "\r", end="", flush=True)
 
     def detect_device(self):
-        """Fake device detection"""
-        self.print_message(MessageType.INFO, "Detecting connected device...")
+        """Лажна детекција на уред"""
+        self.print_message(MessageType.INFO, "Детектирање поврзан уред...")
         self.loading_animation(1.5)
         device = random.choice(self.fake_devices)
         fake_serial = f"FAKE{random.randint(1000000, 9999999)}"
-        self.print_message(MessageType.SUCCESS, f"Device detected: {device}")
-        self.print_message(MessageType.INFO, f"Serial: {fake_serial}")
+        self.print_message(MessageType.SUCCESS, f"Уред детектиран: {device}")
+        self.print_message(MessageType.INFO, f"Серијски број: {fake_serial}")
         time.sleep(0.5)
 
     def check_hyperos(self):
-        """Fake HyperOS version check"""
+        """Лажна проверка на верзија на HyperOS"""
         self.print_message(
-            MessageType.WARNING, "Checking HyperOS version (this might take forever)..."
+            MessageType.WARNING, "Проверавање верзија на HyperOS (ова може да трае вечно)..."
         )
         self.loading_animation(2)
         versions = [
-            "HyperOS 2.0.1337 (PATCHED)",
-            "HyperOS 3.0 (SUPER PATCHED)",
-            "HyperOS 1.5 (ANCIENT)",
+            "HyperOS 2.0.1337 (ИСПРАВЕНО)",
+            "HyperOS 3.0 (СУПЕР ИСПРАВЕНО)",
+            "HyperOS 1.5 (ДРЕВНО)",
         ]
         version = random.choice(versions)
-        self.print_message(MessageType.INFO, f"HyperOS Version: {version}")
+        self.print_message(MessageType.INFO, f"Верзија на HyperOS: {version}")
         time.sleep(0.5)
 
     def check_sim_card(self):
-        """Fake SIM card detection"""
-        self.print_message(MessageType.INFO, "Checking for valid SIM card...")
+        """Лажна детекција на SIM картица"""
+        self.print_message(MessageType.INFO, "Проверавање за валидна SIM картица...")
         self.loading_animation(1.5)
         if random.random() > 0.7:
             self.print_message(
                 MessageType.ERROR,
-                "❌ No SIM card detected! (Is that a banana in the slot?)",
+                "❌ Нема пронајдена SIM картица! (Дали е то банана во слотот?)",
             )
             time.sleep(1)
-            self.print_message(MessageType.INFO, "Inserting virtual SIM from the cloud...")
+            self.print_message(MessageType.INFO, "Вметнување виртуелна SIM од облакот...")
             self.loading_animation(2)
-        self.print_message(MessageType.SUCCESS, "SIM card verified (somehow)")
+        self.print_message(MessageType.SUCCESS, "SIM картица потврдена (некако)")
         time.sleep(0.5)
 
     def disable_internet(self):
-        """Fake internet disabling"""
+        """Лажно оневозможување на интернет"""
         self.print_message(
-            MessageType.INFO, "Disabling mobile internet using interpretive dance..."
+            MessageType.INFO, "Оневозможување на мобилен интернет користејќи интерпретативен плес..."
         )
         self.loading_animation(2)
-        self.print_message(MessageType.SUCCESS, "Mobile internet disabled (reality negotiable)")
+        self.print_message(MessageType.SUCCESS, "Мобилен интернет оневозможен (реалноста е спорна)")
         time.sleep(0.5)
 
     def forge_request(self):
-        """Fake binding request forging"""
-        self.print_message(MessageType.INFO, "Forging binding request with quantum mechanics...")
+        """Лажно кованје на захтев за врзување"""
+        self.print_message(MessageType.INFO, "Кованје захтева за врзување со квантна механика...")
         self.loading_animation(3)
-        self.print_message(MessageType.SUCCESS, "Binding request forged (in alternate dimension)")
+        self.print_message(MessageType.SUCCESS, "Захтев за врзување кован (во алтернативна димензија)")
         self.print_message(
-            MessageType.INFO, "ROM version: MIUI 14 (pretending to be from 2014)"
+            MessageType.INFO, "ROM верзија: MIUI 14 (претворајќи се дека е од 2014)"
         )
         time.sleep(0.5)
 
     def send_request(self):
-        """Fake request sending"""
-        self.print_message(MessageType.INFO, "Sending forged request to Xiaomi servers...")
+        """Лажно испраќање на захтев"""
+        self.print_message(MessageType.INFO, "Испраќање кован захтев до Xiaomi сервери...")
         self.loading_animation(2)
 
         if random.random() > 0.6:
             self.print_message(
-                MessageType.ERROR, "Request rejected by: The Interdimensional Xiaomi Police"
+                MessageType.ERROR, "Захтев отфрлен од: Полицијата на Интердимензионална Xiaomi"
             )
             self.print_message(
-                MessageType.WARNING, "Retrying with 200% more confidence..."
+                MessageType.WARNING, "Повторување со 200% повече самоувереност..."
             )
             self.loading_animation(2)
 
-        self.print_message(MessageType.SUCCESS, "Request accepted (by a very confused server)")
+        self.print_message(MessageType.SUCCESS, "Захтев прифатен (од многу збунувачи сервер)")
         time.sleep(0.5)
 
     def unlock_bootloader(self):
-        """Fake bootloader unlock"""
-        self.print_message(MessageType.LOADING, "UNLOCKING BOOTLOADER...")
+        """Лажно откључавање на бутлоадер"""
+        self.print_message(MessageType.LOADING, "ОТКЉУЧУВАЊЕ НА БУТЛОАДЕР...")
         self.loading_animation(3)
 
         unlock_messages = [
-            "Bootloader status: LOCKED → 🔓 SPIRITUALLY UNLOCKED",
-            "Bootloader is now in Schrodinger's state (locked AND unlocked)",
-            "Bootloader: Exists in parallel universe only",
-            "Bootloader IQ: 9000+ (it's smarter than expected)",
+            "Статус на бутлоадер: ЗАКЉУЧАН → 🔓 ДУХОВНО ОТКЉУЧАН",
+            "Бутлоадер е сега во Шредингеровата состојба (закључан И откључан)",
+            "Бутлоадер: Постои само во паралелен универзум",
+            "IQ на бутлоадер: 9000+ (е поумна одошто се очекувало)",
         ]
 
         self.print_message(MessageType.SUCCESS, random.choice(unlock_messages))
         time.sleep(0.5)
 
     def show_warnings(self):
-        """Show hilarious warnings"""
+        """Покажи смешни предупредувања"""
         warnings = [
-            "Your warranty is now a memory",
-            "Device may become sentient",
-            "Neighboring devices may also become unlocked",
-            "Your phone will start asking for cryptocurrency",
-            "Xiaomi customer support will haunt your dreams",
-            "Your device is now friends with the mainframe",
+            "Вашата гарантија е сега меморија",
+            "Уредот може да постане свестан",
+            "Суседните уреди може да бидат откључани",
+            "Вашиот телефон ќе почне да прашува за криптовалута",
+            "Xiaomi поддршката ќе ве мачи во снови",
+            "Вашиот уред е сега пријател со главниот рам",
         ]
-        self.print_message(MessageType.WARNING, "POTENTIAL SIDE EFFECTS:")
+        self.print_message(MessageType.WARNING, "ПОТЕНЦИЈАЛНИ СОСЕДНИ ЕФЕКТИ:")
         for warning in random.sample(warnings, 3):
             self.print_message(MessageType.WARNING, f"  • {warning}")
         time.sleep(0.5)
 
     def run(self):
-        """Run the fake simulator"""
+        """Трчи го лажниот симулатор"""
         self.print_header()
 
         steps = [
-            ("Detecting device", self.detect_device),
-            ("Checking HyperOS version", self.check_hyperos),
-            ("Checking SIM card", self.check_sim_card),
-            ("Disabling mobile internet", self.disable_internet),
-            ("Forging binding request", self.forge_request),
-            ("Sending request", self.send_request),
-            ("Unlocking bootloader", self.unlock_bootloader),
-            ("Showing warnings", self.show_warnings),
+            ("Детектирање уред", self.detect_device),
+            ("Проверавање верзија на HyperOS", self.check_hyperos),
+            ("Проверавање SIM картица", self.check_sim_card),
+            ("Оневозможување мобилен интернет", self.disable_internet),
+            ("Кованје захтев за врзување", self.forge_request),
+            ("Испраќање захтев", self.send_request),
+            ("Откључување бутлоадер", self.unlock_bootloader),
+            ("Покажување предупредувања", self.show_warnings),
         ]
 
         for step_name, step_func in steps:
             try:
                 step_func()
             except Exception as e:
-                self.print_message(MessageType.ERROR, f"Error in {step_name}: {str(e)}")
+                self.print_message(MessageType.ERROR, f"Грешка во {step_name}: {str(e)}")
                 time.sleep(0.5)
 
-        # Final message
+        # Финална пораката
         print("\n" + "=" * 60)
         self.print_message(
-            MessageType.SUCCESS, "🎉 FAKE UNLOCK PROCESS COMPLETE! (Not really) 🎉"
+            MessageType.SUCCESS, "🎉 ЛАЖЕН ПРОЦЕС НА ОТКЉУЧУВАЊЕ ЗАВРШЕН! (Вистински не) 🎉"
         )
         print("\n" + "🤭 " * 10)
         print(
             """
 ╔═══════════════════════════════════════════════════════════╗
-║  Your bootloader is now FAKE-UNLOCKED! ✨                  ║
+║  Вашиот бутлоадер е сега ЛАЖНО-ОТКЉУЧАН! ✨              ║
 ║                                                            ║
-║  Congratulations! Your device is now:                     ║
-║  • Spiritually unlocked                                   ║
-║  • Emotionally ready for rooting                          ║
-║  • Confused about its identity                            ║
-║  • Probably still locked                                  ║
+║  Честитки! Вашиот уред е сега:                           ║
+║  • Духовно откључан                                      ║
+║  • Емоционално подготвен за рутирање                    ║
+║  • Конфузна за неговиот идентитет                        ║
+║  • Вероватно сè уште закључана                           ║
 ║                                                            ║
-║  Pro tip: Don't actually try this, it's a JOKE! 😄       ║
+║  Совет: Не пробајте ова вистински, ТО Е ШАЛА! 😄        ║
 ╚═══════════════════════════════════════════════════════════╝
 """
         )
@@ -240,16 +240,16 @@ class FakeHyperSploit:
 
 
 def main():
-    """Main entry point"""
+    """Главна точка на влез"""
     try:
         sploit = FakeHyperSploit()
         sploit.run()
     except KeyboardInterrupt:
-        print("\n\n❌ User interrupted the process (blame yourself)")
-        print("Your device is now in a quantum state of confusion")
+        print("\n\n❌ Корисник го прекина процесот (кривите си на себе)")
+        print("Вашиот уред е сега во квантна состојба на конфузија")
     except Exception as e:
-        print(f"\n❌ Unexpected error: {e}")
-        print("Congratulations, you've found a real bug in fake code!")
+        print(f"\n❌ Неочекувана грешка: {e}")
+        print("Честитки, нашол си вистински баг во лажен код!")
 
 
 if __name__ == "__main__":
