@@ -1,33 +1,33 @@
 # FakeHyperSploit 🚀
 
-> A hilarious parody of the original [HyperSploit](https://github.com/TheAirBlow/HyperSploit) that simulates bootloader unlocking with completely fake (and funny) messages!
+> Смешна пародија на оригиналниот [HyperSploit](https://github.com/TheAirBlow/HyperSploit) што имитира откључување на бутлоадер со апсолутно лажни (и смешни) пораки!
 
-## 🤣 What is this?
+## 🤣 Што е ова?
 
-This is a **joke project** that mimics the behavior of the real HyperSploit exploit tool, but instead of actually doing anything useful, it just prints hilarious fake messages and pretends to unlock your bootloader in the most absurd ways possible.
+Ова е **шалајички проект** што го имитира однесувањето на вистинскиот инструмент HyperSploit, но наместо да направи нешто корисно, само печати смешни лажни пораки и прави вид дека го откључува бутлоадерот на твојот телефон на најабсурдните начини.
 
-**WARNING: This does ABSOLUTELY NOTHING. It's 100% fake. Don't actually use it to unlock your phone!**
+**УПОЗОРЕЊЕ: Ова АПСОЛУТНО НЕ ПРАВИ НИШТО. Тоа е 100% лажно. Не го користи ова за откључување на твојот телефон!**
 
-## Features
+## Функции
 
-✨ **Completely Fake but Entertaining:**
-- Fake device detection (results may vary)
-- Pretend HyperOS version checking
-- Quantum-powered SIM card detection
-- Interpretive dance-based internet disabling
-- Binding requests forged with quantum mechanics
-- Bootloader states that exist only in parallel universes
-- Hilarious warnings about side effects
-- Loading animations that go nowhere
+✨ **Апсолутно лажно но забавно:**
+- Лажна детекција на уред (резултатите може да варираат)
+- Имитирана проверка на верзија на HyperOS
+- Детекција на SIM картица на квантна основа
+- Оневозможување на интернет користејќи интерпретативен плес
+- Захтеви за врзување кувани со квантна механика
+- Состојби на бутлоадер што постојат само во паралелни универзуми
+- Смешни предупредувања за соседни ефекти
+- Анимации на вчитување што водат никаде
 
-## 🎯 How to Use
+## 🎯 Како да се користи
 
-### Requirements
+### Барања
 - Python 3.6+
-- A sense of humor
-- Absolutely NO actual phone
+- Чувство за хумор
+- Апсолутно БЕЗ вистински телефон
 
-### Installation
+### Инсталација
 
 ```bash
 git clone https://github.com/misha99fr/FakeHyperSploit.git
@@ -35,109 +35,109 @@ cd FakeHyperSploit
 chmod +x fakehypersploit.py
 ```
 
-### Running
+### Трчање
 
 ```bash
 python3 fakehypersploit.py
 ```
 
-Or on Unix-like systems:
+Или на Unix-подобни системи:
 
 ```bash
 ./fakehypersploit.py
 ```
 
-### Example Output
+### Пример на Резултат
 
 ```
 ============================================================
 ╔════════════════════════════════════════════════════════╗
-║         🚀 FakeHyperSploit - Joke Edition 🚀           ║
-║      Bootloader Unlock Simulator (Totally Fake)        ║
+║      🚀 FakeHyperSploit - Издање на Албански 🚀       ║
+║   Симулатор за Откључавање Бутлоадера (Апсолутно Лажно)║
 ╚════════════════════════════════════════════════════════╝
 ============================================================
 
-ℹ️ Detecting connected device...
-⏳ Processing...
-✅ Device detected: Xiaomi Mi 11
-ℹ️ Serial: FAKE7238902
+ℹ️ Детектирање поврзан уред...
+⏳ Обработка...
+✅ Уред детектиран: Xiaomi Mi 11
+ℹ️ Серијски број: FAKE7238902
 
-⚠️ Checking HyperOS version (this might take forever)...
-⏳ Processing...
-ℹ️ HyperOS Version: HyperOS 2.0.1337 (PATCHED)
+⚠️ Проверавање верзија на HyperOS (ова може да трае вечно)...
+⏳ Обработка...
+ℹ️ Верзија на HyperOS: HyperOS 2.0.1337 (ИСПРАВЕНО)
 ```
 
-## 😂 Fake Features Included
+## 😂 Лажни Функции Вклучени
 
-- **Quantum Bootloader States**: Your bootloader exists in superposition (locked AND unlocked)
-- **Interdimensional Xiaomi**: Communicates with Xiaomi servers from parallel universes
-- **Spiritual Unlocking**: Unlocks your device's SOUL, not the actual bootloader
-- **Device Sentience**: Your phone may start asking for cryptocurrency
-- **Memory Warranty**: Your warranty becomes a distant memory
-- **Confidence Retries**: Fails with 200% more confidence!
+- **Квантни Состојби на Бутлоадер**: Твој бутлоадер постои во суперпозиција (закључан И откључан)
+- **Интердимензионална Xiaomi**: Комуницира со сервери на Xiaomi од паралелни универзуми
+- **Духовно Откључување**: Откључува ја ДУШАТА на твој уред, не вистински бутлоадер
+- **Свест на Уредот**: Твојот телефон може да почне да прашува за криптовалута
+- **Гарантија Меморија**: Твоја гарантија станува далеко меморија
+- **Повторни Обиди**: Не успева со 200% повече самоувереност!
 
-## ⚠️ Important Disclaimer
+## ⚠️ Важно Одрекување
 
 ```
-THIS IS A JOKE. DO NOT:
-❌ Actually use this to unlock your phone
-❌ Connect a real device
-❌ Expect anything to work
-❌ Blame me if it somehow does something
-✅ Use this only for laughs
-✅ Share with friends for entertainment
-✅ Appreciate the absurdity
+ОВА Е ШАЛА. НЕ ПРАВИ:
+❌ Вистински да го користиш ова за откључување на телефон
+❌ Поврзување вистински уред
+❌ Очекување дека нешто ќе работи
+❌ Обвинување ако некако нешто направи
+✅ Користи го ова само за смех
+✅ Дели го со пријатели за забава
+✅ Ценување го апсурдноста
 ```
 
-## 🎭 What Makes It Funny?
+## 🎭 Што го Прави Ово Смешно?
 
-- Messages that get progressively more ridiculous
-- Fake technical jargon mixed with pure nonsense
-- Random device selection
-- Failure scenarios that make no sense
-- Warnings about impossible side effects
-- ASCII art and emoji decorations
-- Fake loading animations
+- Пораки што постанува сè повеќе апсурдни
+- Лажна техничка жаргона помешана со чист глупав
+- Случајна селекција на уред
+- Сценарија на неуспех што немаат смисла
+- Предупредувања за невозможни соседни ефекти
+- ASCII уметност и украси со емоџи
+- Лажни анимации на вчитување
 
-## 📝 License
+## 📝 Лиценца
 
-Licensed under [Mozilla Public License Version 2.0](LICENSE) - just like the original!
+Лицензирано под [Mozilla Public License Version 2.0](LICENSE) - исто како оригиналот!
 
-This is a tribute to [TheAirBlow/HyperSploit](https://github.com/TheAirBlow/HyperSploit). All credit for the original concept goes to them.
+Ова е реверенца за [TheAirBlow/HyperSploit](https://github.com/TheAirBlow/HyperSploit). Сва заслуга за оригиналната концепција оди до нив.
 
-## 🙏 Credits
+## 🙏 Благодарности
 
-- **Original HyperSploit**: [TheAirBlow](https://github.com/TheAirBlow)
-- **Fake Version (this)**: Made as a joke 🤭
-- **Inspiration**: The desperate need for humor in tech
+- **Оригинален HyperSploit**: [TheAirBlow](https://github.com/TheAirBlow)
+- **Лажна Верзија (ова)**: Направено како шала 🤭
+- **Инспирација**: Неодолива потреба за хумор во технологијата
 
-## 💬 FAQ
+## 💬 Најчесто Прашани Прашања
 
-**Q: Will this actually unlock my bootloader?**  
-A: No. It's completely fake. It won't do anything.
+**В: Дали ова вистински ќе го откључа мој бутлоадер?**  
+О: Не. Тоа е апсолутно лажно. Нема да направи ништо.
 
-**Q: Can I use this on my phone?**  
-A: Yes, you can run the script on your phone's computer, but it won't unlock anything.
+**В: Могу ли ова да го користам на мој телефон?**  
+О: Да, можеш да го трчаш скриптот на компјутерот на твој телефон, но нема ништо да откључа.
 
-**Q: Is this legal?**  
-A: It's a joke. It doesn't exploit anything, so yes.
+**В: Дали ова е легално?**  
+О: Тоа е шала. Не експлоатира ништо, па да.
 
-**Q: Why does my device exist in a quantum state now?**  
-A: That's how we roll. 🌀
+**В: Зошто мој уред сада постои во квантна состојба?**  
+О: Така работиме. 🌀
 
-**Q: Will my warranty be voided?**  
-A: No, because nothing actually happens.
+**В: Дали моја гарантија ќе биде пропадена?**  
+О: Не, бидејќи ништо не се случува.
 
-## 🚀 Future Ideas (Never)
+## 🚀 Идеи за Иднина (Никогаш)
 
-- Web version of the simulator
-- Mobile app for extra fake notifications
-- Animated boot screens with fake unlock messages
-- Terminal screensaver mode
-- Integration with actual phone emulators (still fake)
+- Веб верзија на симулаторот
+- Мобилна апликација за дополнителни лажни известувања
+- Анимирани екрани за вчитување со лажни пораки за откључување
+- Режим на заштитник на екран на терминал
+- Интеграција со вистински емулатори на телефони (сè уште лажно)
 
 ---
 
-**Remember**: This is pure comedy. Don't take it seriously. If you want to actually unlock your bootloader, use the real [HyperSploit](https://github.com/TheAirBlow/HyperSploit) (at your own risk).
+**Запомни**: Ова е чиста комедија. Не земи го сериозно. Ако сакаш вистински да го откључаш твој бутлоадер, користи го вистинскиот [HyperSploit](https://github.com/TheAirBlow/HyperSploit) (на твој ризик).
 
-**Now go forth and enjoy the chaos!** 🎉🤪
+**Сега оди и ужива во хаосот!** 🎉🤪
